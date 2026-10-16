@@ -1,0 +1,149 @@
+[
+  {
+    "full": "networkx/networkx",
+    "url": "https://github.com/networkx/networkx",
+    "stars": 17328,
+    "default_branch": "main",
+    "pushed_at": "2026-10-06T17:42:21Z",
+    "updated_at": "2026-10-16T05:46:28Z",
+    "archived": false,
+    "license": "NOASSERTION",
+    "description": "Network Analysis in Python",
+    "observed": "2026-10-16T06:07:58.268Z",
+    "readme": {
+      "path": "README.rst",
+      "sha": "a18d5ff1dd729e52e8b1746e49ea9623937a4743"
+    },
+    "issues": [
+      {
+        "number": 8958,
+        "title": "ENH: Support hidden edges (weight=None) in Bellman-Ford, Goldberg-Radzik and Johnson",
+        "url": "https://github.com/networkx/networkx/pull/8958",
+        "pull_request": true
+      },
+      {
+        "number": 8956,
+        "title": "BUG: don't pop \"id\" from G.graph in the GraphML writers",
+        "url": "https://github.com/networkx/networkx/pull/8956",
+        "pull_request": true
+      },
+      {
+        "number": 8955,
+        "title": "Fix ZeroDivisionError in percolation_centrality for graphs with <= 2 nodes",
+        "url": "https://github.com/networkx/networkx/pull/8955",
+        "pull_request": true
+      },
+      {
+        "number": 8954,
+        "title": "ZeroDivisionError in percolation_centrality for graphs with <= 2 nodes",
+        "url": "https://github.com/networkx/networkx/issues/8954",
+        "pull_request": false
+      },
+      {
+        "number": 8953,
+        "title": "ENH: Add canonicalization module",
+        "url": "https://github.com/networkx/networkx/pull/8953",
+        "pull_request": true
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  },
+  {
+    "full": "google/or-tools",
+    "url": "https://github.com/google/or-tools",
+    "stars": 14206,
+    "default_branch": "stable",
+    "pushed_at": "2026-10-15T20:41:37Z",
+    "updated_at": "2026-10-16T01:24:54Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "description": "Google's Operations Research tools:",
+    "observed": "2026-10-16T06:07:58.446Z",
+    "readme": {
+      "path": "README.md",
+      "sha": "344dfd9abc4372c20f49e604e9de312e08802230"
+    },
+    "issues": [
+      {
+        "number": 5494,
+        "title": "Internal persolve crash `absl::container_internal::raw_hash_map<>::at`",
+        "url": "https://github.com/google/or-tools/issues/5494",
+        "pull_request": false
+      },
+      {
+        "number": 5492,
+        "title": "WIP: Add MOSEK Support",
+        "url": "https://github.com/google/or-tools/pull/5492",
+        "pull_request": true
+      },
+      {
+        "number": 5489,
+        "title": "Support for python 3.15",
+        "url": "https://github.com/google/or-tools/issues/5489",
+        "pull_request": false
+      },
+      {
+        "number": 5481,
+        "title": "Free MPS export rounds exact integer bounds to six significant digits",
+        "url": "https://github.com/google/or-tools/issues/5481",
+        "pull_request": false
+      },
+      {
+        "number": 5475,
+        "title": "graph: fix false infeasibility in LinearSumAssignment with signed costs",
+        "url": "https://github.com/google/or-tools/pull/5475",
+        "pull_request": true
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  },
+  {
+    "full": "Pyomo/pyomo",
+    "url": "https://github.com/Pyomo/pyomo",
+    "stars": 2544,
+    "default_branch": "main",
+    "pushed_at": "2026-10-13T18:37:56Z",
+    "updated_at": "2026-10-15T03:10:43Z",
+    "archived": false,
+    "license": "NOASSERTION",
+    "description": "An object-oriented algebraic modeling language in Python for structured optimization problems.",
+    "observed": "2026-10-16T06:07:58.284Z",
+    "readme": {
+      "path": "README.md",
+      "sha": "3981e09ce4584de13d9790699f24b266fbe86932"
+    },
+    "issues": [
+      {
+        "number": 4054,
+        "title": "Add support/testing for Python 3.15",
+        "url": "https://github.com/Pyomo/pyomo/pull/4054",
+        "pull_request": true
+      },
+      {
+        "number": 4052,
+        "title": "References to DerivativeVar",
+        "url": "https://github.com/Pyomo/pyomo/issues/4052",
+        "pull_request": false
+      },
+      {
+        "number": 4051,
+        "title": "Unexpected lack of input validation for Pyomo slices",
+        "url": "https://github.com/Pyomo/pyomo/issues/4051",
+        "pull_request": false
+      },
+      {
+        "number": 4048,
+        "title": "Resolve dynamic initialization of Param values",
+        "url": "https://github.com/Pyomo/pyomo/pull/4048",
+        "pull_request": true
+      },
+      {
+        "number": 4047,
+        "title": "Contrib HiGHS: support partial MIP warm starts",
+        "url": "https://github.com/Pyomo/pyomo/pull/4047",
+        "pull_request": true
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  }
+]

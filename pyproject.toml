@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capacity-cut-report"
+version = "0.1.0"
+description = "Compute integer max flow for explicit pool/task links, report idle and unfilled units, and expose cut edges whose capacity certifies the achieved maximum."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+capacity-cut-report = "capacity_cut_report:main"
+
+[tool.setuptools]
+py-modules = ["capacity_cut_report"]
