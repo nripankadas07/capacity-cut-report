@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "id": "A",
+      "capacity": 3
+    },
+    {
+      "id": "B",
+      "capacity": 5
+    }
+  ],
+  "tasks": [
+    {
+      "id": "X",
+      "demand": 5
+    },
+    {
+      "id": "Y",
+      "demand": 3
+    }
+  ],
+  "links": [
+    {
+      "pool": "A",
+      "task": "X"
+    },
+    {
+      "pool": "B",
+      "task": "Y"
+    }
+  ]
+}
